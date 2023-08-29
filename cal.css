@@ -1,0 +1,74 @@
+*{
+    padding: none;
+    margin: none;
+    border: border-box;
+   
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(98, 98, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal {
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 0px 5px 25px rgba(219, 197, 197, 0.5) ;
+
+}
+
+input {
+    width: 380px;
+    margin: 10px;
+    padding: 24px;
+    background: transparent;
+    border: 2px solid black;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1) ;
+    text-align: right;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: white;
+}
+button {
+    width: 92px;
+    height: 60px;
+    margin: 10px;
+    border: none;
+    border-radius: 50px;
+    background: #ffff;
+    box-shadow: -8px -8px 15px rgba(84, 84, 84, 1.1) ;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+
+}
+
+.equal {
+    color: rgb(39, 254, 1);
+    background-color: rgb(201, 70, 53);
+}
+
+.operate {
+    color: rgb(195, 233, 90);
+    background-color: rgba(78, 75, 225, 0.849);
+}
+
+.simple h1{
+    display: flex;
+    position: absolute;
+    font-size: 45px;
+    top: 10px;
+    left:41%;
+    justify-content: center;
+    color: aliceblue;
+    width: 20%;
+}
